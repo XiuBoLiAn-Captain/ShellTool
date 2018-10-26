@@ -1,0 +1,15 @@
+{
+  "name": "ShellTool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/OctupleSakura/ShellTool.git",
+  "author": "octuplesakura <2211503711@qq.com>",
+  "license": "MIT",
+  "bin": {
+    "push": "bin/push.js"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.2",
+    "yargs": "^12.0.2"
+  }
+}
