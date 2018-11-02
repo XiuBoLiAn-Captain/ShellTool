@@ -6,7 +6,9 @@
   "author": "octuplesakura <2211503711@qq.com>",
   "license": "MIT",
   "bin": {
-    "push": "bin/push.js"
+    "push": "bin/push.js",
+    "quick_rebase": "bin/quick_rebase.js",
+    "stash": "bin/stash.js"
   },
   "dependencies": {
     "shelljs": "^0.8.2",
