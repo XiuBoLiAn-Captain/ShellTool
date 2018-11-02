@@ -12,6 +12,10 @@
 ``` bash  
 node quick_rebase 目标分支
 ```
+#### 3. stash  
+``` bash  
+node stash 目标分支
+```
 
 后续再继续补充啦
 
