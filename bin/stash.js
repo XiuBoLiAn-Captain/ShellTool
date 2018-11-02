@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 
 require('shelljs/global')
 const argv = require('yargs').argv
