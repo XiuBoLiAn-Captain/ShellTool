@@ -16,6 +16,16 @@ quick_rebase 目标分支
 ``` bash  
 stash 目标分支
 ```
+#### 4. set_gituser  
+``` bash  
+
+set_gituser
+username: your username
+email: your email
+username is set successfullyQAQ
+email is set successfullyQAQ
+
+```
 
 后续再继续补充啦
 
