@@ -8,7 +8,7 @@ const current_branch = exec('git rev-parse --abbrev-ref HEAD').split(',')[0]
 
 const aims_branch = argv._
 
-if(!exec('git status --porcelain')) {
+if(!exec('git status --porcelain')[0]) {
   
   exec('git checkout ' + aims_branch)
   echo('切换到'+ aims_branch +'分支')
