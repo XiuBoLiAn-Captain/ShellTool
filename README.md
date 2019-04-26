@@ -27,7 +27,14 @@ email is set successfullyQAQ
 
 ```
 
-后续再继续补充啦
+#### 5. upload  
+``` bash  
+
+upload
+
+```
+服务器部署脚本案例，按照案例里面设置好对应的参数执行脚本即可
+
 
 ### 便捷食用说明
 

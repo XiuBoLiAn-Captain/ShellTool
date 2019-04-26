@@ -3,8 +3,14 @@
 require('shelljs/global')
 const argv = require('yargs').argv
 
+
+//code !== 0为执行失败
 //目标分支
 const aims_branch = argv._
+if (exec(`git rev-parse --verify ${aims_branch}`).code !== 0) {
+  echo('分支不存在')
+  return
+}
 
 echo('存储变更...')
 exec('git stash')
