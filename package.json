@@ -9,7 +9,8 @@
     "push": "bin/push.js",
     "quick_rebase": "bin/quick_rebase.js",
     "stash": "bin/stash.js",
-    "set_gituser": "bin/set_gituser.js"
+    "set_gituser": "bin/set_gituser.js",
+    "upload": "bin/upload.js"
   },
   "dependencies": {
     "co": "^4.6.0",
