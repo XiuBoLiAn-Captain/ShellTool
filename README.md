@@ -1,7 +1,5 @@
-## quick-git
+## quick-git-tool
 常用的git操作集合
-
-
 
 #### 便捷食用说明
 
