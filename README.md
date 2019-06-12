@@ -3,7 +3,7 @@
 
 
 
-### 便捷食用说明
+#### 便捷食用说明
 
 ```
  npm install quick-git-tool -g
