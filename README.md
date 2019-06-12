@@ -1,5 +1,5 @@
-### ShellTool
-一些好用的shell脚本,比如常用的git操作集合等
+### quick-git
+常用的git操作集合
 
 ### 目前有的脚本
 
