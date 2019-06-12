@@ -1,7 +1,5 @@
-### quick-git
+## quick-git
 常用的git操作集合
-
-### 目前有的脚本
 
 #### 1. quick-push  
 ``` bash  
