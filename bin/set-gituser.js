@@ -10,9 +10,9 @@ co(function*() {
    const ok = yield prompt.confirm('are you sure?(yes|no)');
    if(ok) {
      exec('git config --global user.name "'+ username + '"' )
-     echo('username is set successfullyQAQ')
+     echo('用户名设置成功')
      exec('git config --global user.email "'+ email + '"' )
-     echo('email is set successfullyQAQ')
+     echo('邮箱设置成功')
      echo('git config --global --list')
    }
    process.exit();

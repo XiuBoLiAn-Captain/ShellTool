@@ -3,23 +3,23 @@
 
 ### 目前有的脚本
 
-#### 1. push  
+#### 1. quick-push  
 ``` bash  
-push -m "commit信息"
+quick-push -m "commit信息"
 ```
 
-#### 2. rebase  
+#### 2. quick-rebase  
 ``` bash  
-quick_rebase 目标分支
+quick-rebase 目标分支
 ```
-#### 3. stash  
+#### 3. quick-stash  
 ``` bash  
-stash 目标分支
+quick-stash 目标分支
 ```
-#### 4. set_gituser  
+#### 4. quick-set-gituser  
 ``` bash  
 
-set_gituser
+quick-set-gituser
 username: your username
 email: your email
 username is set successfullyQAQ
@@ -27,7 +27,7 @@ email is set successfullyQAQ
 
 ```
 
-#### 5. upload  
+#### 5. upload（未添加，仅做示例）
 服务器部署脚本案例，按照案例里面设置好对应的参数执行脚本即可  
 对应的要填的参数已经在脚本里写好注释啦~
 ``` bash  
