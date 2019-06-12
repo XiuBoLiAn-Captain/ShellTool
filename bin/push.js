@@ -15,8 +15,6 @@ let current_branch = exec('git rev-parse --abbrev-ref HEAD').split(',')[0]
 
 console.log(current_branch)
 if(argv.m) {
-  echo('拉取分支更新...')
-  exec('git pull origin ' + current_branch)
   
   echo('添加变更文件到暂存区...')
   exec('git add .')
@@ -29,5 +27,5 @@ if(argv.m) {
   
   echo('完成')
 }else {
-  echo('请添加注释')
+  echo('请添加commit信息')
 }
