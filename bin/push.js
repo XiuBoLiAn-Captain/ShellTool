@@ -11,7 +11,7 @@ if (!which('git')) {
   exit(1)
 }
 //获取当前分支名
-let current_branch = exec('git rev-parse --abbrev-ref HEAD').split(',')[0]
+const current_branch = exec('git rev-parse --abbrev-ref HEAD').split(',')[0]
 
 console.log(current_branch)
 if(argv.m) {
