@@ -17,7 +17,7 @@ quick-push -m "commit信息"
 
 #### 2. quick-rebase  
 
-rebase最新的目标分支
+rebase 最新的目标分支
 
 ``` bash  
 quick-rebase 目标分支
