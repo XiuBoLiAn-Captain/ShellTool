@@ -9,7 +9,7 @@
 
 #### 1. quick-push  
 
-push 变更到分支的一系列集合操作
+push 提交变更到当前分支的一系列集合操作
 
 ``` bash  
 quick-push -m "commit信息"
