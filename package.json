@@ -8,7 +8,7 @@
   "license": "MIT",
   "bin": {
     "quick-push": "bin/push.js",
-    "quick-rebase": "bin/quick-rebase.js",
+    "quick-rebase": "bin/rebase.js",
     "quick-new-branch": "bin/new-branch.js",
     "quick-set-gituser": "bin/set-gituser.js"
   },
