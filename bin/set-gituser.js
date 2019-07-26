@@ -4,7 +4,7 @@ const prompt = require('co-prompt');
 
 require('shelljs/global')
 
-co(function*() {
+module.exports = () => co(function*() {
    const username = yield prompt('username: ')
    const email = yield prompt('email: ')
    const ok = yield prompt.confirm('are you sure?(yes|no)');

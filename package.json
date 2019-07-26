@@ -1,16 +1,13 @@
 {
-  "name": "quick-git-tool",
-  "version": "1.0.5",
+  "name": "qg-tool",
+  "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/OctupleSakura/ShellTool.git",
   "description": "a git tool, hope it saves you time",
   "author": "octuplesakura <2211503711@qq.com>",
   "license": "MIT",
   "bin": {
-    "quick-push": "bin/push.js",
-    "quick-rebase": "bin/rebase.js",
-    "quick-new-branch": "bin/new-branch.js",
-    "quick-set-gituser": "bin/set-gituser.js"
+    "qg": "index.js"
   },
   "dependencies": {
     "co": "^4.6.0",
