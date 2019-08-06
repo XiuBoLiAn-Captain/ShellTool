@@ -2,7 +2,7 @@
 
 require('shelljs/global')
 
-module.exports = (current_branch, arg) => {
+module.exports = (current_branch, _) => {
 
   echo('获取变更')
   exec('git fetch --all')

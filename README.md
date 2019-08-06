@@ -4,7 +4,7 @@
 #### 便捷食用说明
 
 ```
- npm install qg-tool -g
+npm install qg-tool -g
 ```
 
 #### 1. qg push  
@@ -44,5 +44,15 @@ email is set successfullyQAQ
 ``` bash  
 
 qg new-branch 新分支
+
+```
+
+#### 5. qg reset-remote
+
+远程分支覆盖本地分支
+
+``` bash  
+
+qg reset-remote
 
 ```
