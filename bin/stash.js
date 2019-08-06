@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 require('shelljs/global')
 
 module.exports = (_, arg) => {

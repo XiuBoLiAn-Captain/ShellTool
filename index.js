@@ -8,6 +8,7 @@ const newbranch = require('./bin/new-branch')
 const push = require('./bin/push')
 const gituser = require('./bin/set-gituser')
 const stash = require('./bin/stash')
+const resetremote = require('./bin/reset-rb')
 
 //判定git命令是否可用
 if (!which('git')) {
