@@ -9,5 +9,6 @@ module.exports = (current_branch, _) => {
 
   echo('回退线上版本')
   echo(`git reset --hard origin/${current_branch}`)
+  echo(`git pull`)
 
 }
